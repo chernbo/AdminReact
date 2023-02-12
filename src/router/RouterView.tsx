@@ -20,7 +20,7 @@ const RouterView = () => {
       }
     });
   };
-  console.log(123);
+
   return (
     <Suspense>
       <Switch>{renderRoute(menus)}</Switch>
